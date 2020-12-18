@@ -1,0 +1,9 @@
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <g class="layer">
+  <title>Layer 1</title>
+  <polyline fill="none" id="svg_3" points="617.4846801757812,-9.500020027160645 581.2459716796875,21.160371780395508 545.0072631835938,51.820762634277344" se:connector="svg_9 svg_1" stroke="#000000" stroke-width="5"/>
+  <rect fill="#56ffaa" height="475.00003" id="svg_9" stroke="#000000" stroke-width="25" width="639.99993" x="2.00001" y="2.99998"/>
+  <text fill="#000000" font-family="serif" font-size="24" id="svg_1" stroke="#000000" stroke-width="0" text-anchor="middle" transform="matrix(17.9968 0 0 13.7671 -4021.93 -2159.95)" x="241.73296" xml:space="preserve" y="182.07959">8P</text>
+ </g>
+</svg>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>8 Puzzle</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="shortcut icon" href="images/new.svg" />
+    <script src="script/script.js"></script>
+  </head>
+
+  <body>
+    <div id="m1">
+      <p class="puzzle">8 Puzzle Game</p>
+      <div class="animated-text">
+        <div>
+          <div id="an1">Javascript Project</div>
+          <div id="an2">8 Puzzle Game</div>
+          <div id="an3">Makalam Group (November 2020)</div>
+        </div>
+      </div>
+      <button id="b1">START</button>
+    </div>
+
+    <div id="m2">
+      <div class="pick-text"><p>Pick an Image</p></div>
+
+      <div class="imggroup">
+        <div class="pick" id="img1"></div>
+        <div class="pick" id="img2"></div>
+        <div class="pick" id="img3"></div>
+      </div>
+
+      <button id="b2">Continue</button>
+    </div>
+
+    <div id="m3" class="main">
+      <div id="picture">
+        <div id="p1" class="innerpicture"></div>
+        <div id="p2" class="innerpicture"></div>
+        <div id="p3" class="innerpicture"></div>
+        <div id="p4" class="innerpicture"></div>
+        <div id="p5" class="innerpicture"></div>
+        <div id="p6" class="innerpicture"></div>
+        <div id="p7" class="innerpicture"></div>
+        <div id="p8" class="innerpicture"></div>
+        <div id="p9" class="innerpicture"></div>
+      </div>
+      <div id="solve">
+        <p>Solve the puzzle now!</p>
+        <p id="solve2">Pres F5 to restart</p>
+      </div>
+
+      <div id="shuff">
+        <p>Select Shuffle Amount</p>
+      </div>
+
+      <select id="sel">
+        <option disabled>Choose Shuffle</option>
+        <option value="none" selected disabled hidden>Choose Shuffle</option>
+        <option value="3">3 moves</option>
+        <option value="30">30 Moves</option>
+        <option value="60">60 Moves</option>
+      </select>
+
+      <div id="play">
+        <button id="play-icon">START</button>
+      </div>
+    </div>
+    <div id="congrat"></div>
+    <p id="ctext">Congratulations!</p>
+    <p id="press">Pres F5 to restart</p>
+  </body>
+</html>
