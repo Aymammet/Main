@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Piano</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="images/piano.jpg">
+</head>
+
+<body>
+<h1>PIANO</h1>
+<div class="buttons">
+    <div class="wh">
+        <div class="whites" id="a" onclick="playa()"></div>
+        <div class="whites" id="b" onclick="playb()"></div>
+        <div class="whites" id="c" onclick="playc()"></div>
+        <div class="whites" id="d" onclick="playd()"></div>
+        <div class="whites" id="e" onclick="playe()"></div>
+        <div class="whites" id="f" onclick="playf()"></div>
+        <div class="whites" id="g" onclick="playg()"></div>
+        <div class="whites" id="h" onclick="playh()"></div>
+        <div class="whites" id="i"></div>
+        <div class="whites" id="a1"></div>
+        <div class="whites" id="b1"></div>
+        <div class="whites" id="c1"></div>
+        <div class="whites" id="d1"></div>
+    </div>
+    
+    <div class="bl">
+        <div class="blacks" id="j" onclick="playj()"></div>
+        <div class="blacks" id="k" onclick="playk()"></div>
+        <div class="blacks" id="l" onclick="playl()"></div>
+        <div class="blacks" id="m" onclick="playm()"></div>
+        <div class="blacks" id="n" onclick="playm()"></div>
+        <div class="blacks" id="o" onclick="playo()"></div>
+        <div class="blacks" id="p" onclick="playp()"></div>
+        <div class="blacks" id="q" onclick="playq()"></div>
+        <div class="blacks" id="r" onclick="playr()"></div>
+        <div class="blacks" id="s" onclick="plays()"></div>
+        <div class="blacks" id="t"></div>
+    </div>
+    
+</div>
+
+<audio id="myAudio-a">
+    <source src="sound/do.mp3" type="audio/mpeg">
+</audio>
+<audio id="myAudio-b">
+    <source src="sound/re.mp3" type="audio/mpeg">
+</audio>
+<audio id="myAudio-c">
+    <source src="sound/mi.mp3" type="audio/mpeg">
+</audio>
+<audio id="myAudio-d">
+    <source src="sound/fa.mp3" type="audio/mpeg">
+</audio>
+<audio id="myAudio-e">
+    <source src="sound/sol.mp3" type="audio/mpeg">
+</audio>
+<audio id="myAudio-f">
+    <source src="sound/lja.mp3" type="audio/mpeg">
+</audio>
+<audio id="myAudio-g">
+    <source src="sound/si.mp3" type="audio/mpeg">
+</audio>
+<audio id="myAudio-h">
+    <source src="" type="audio/mpeg">
+</audio>
+<audio id="myAudio-j">
+    <source src="sound/a.wav" type="audio/mpeg">
+</audio>
+<audio id="myAudio-k">
+    <source src="sound/b.wav" type="audio/mpeg">
+</audio>
+<audio id="myAudio-l">
+    <source src="sound/b.wav" type="audio/mpeg">
+</audio>
+<audio id="myAudio-m">
+    <source src="sound/c.wav" type="audio/mpeg">
+</audio>
+<audio id="myAudio-o">
+    <source src="sound/d.wav" type="audio/mpeg">
+</audio>
+<audio id="myAudio-p">
+    <source src="sound/e.wav" type="audio/mpeg">
+</audio>
+<audio id="myAudio-q">
+    <source src="sound/f.wav" type="audio/mpeg">
+</audio>
+<audio id="myAudio-s">
+    <source src="sound/g.wav" type="audio/mpeg">
+</audio>
+
+<div class="lr">
+    <button class="lrb" onclick="lefttoright()">Left to Right</button>
+</div>
+
+<div class="rl">
+    <button class="rlb"  onclick="righttoleft()">Right to Left</button>
+</div>
+
+
+
+
+<script src="script/script.js"></script>
+</body>
+
+</html> 

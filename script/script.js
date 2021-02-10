@@ -40,4 +40,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 
   color_change();
   setInterval(color_change, 15000 * (colors.length + 1));
+
+ 
+  
 });

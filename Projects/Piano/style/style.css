@@ -1,0 +1,140 @@
+.whites {
+    width: 40px;
+    height: 230px;
+    background-color: white;
+    border: solid black;
+    border-width: 2px;
+    float: left;
+    margin-right: 1px;
+    position: relative;
+}
+
+.whites:hover {
+    width: 40px;
+    height: 230px;
+    background-color: white;
+    border: solid black;
+    border-width: 2px;
+    float: left;
+    margin-right: 1px;
+    position: relative;
+    background-color: rgb(200, 198, 198);
+}
+
+.blacks {
+    width: 40px;
+    height: 140px;
+    background-color: rgb(0, 0, 0);
+    border: solid black;
+    border-width: 2px;
+    float: left;
+    margin-right: 1px;
+}
+
+.blacks:hover {
+    width: 40px;
+    height: 140px;
+    background-color: rgb(9, 4, 58);
+    border: solid black;
+    border-width: 2px;
+    float: left;
+    margin-right: 1px;
+}
+
+.buttons {
+    position: relative;
+    
+}
+
+.bl {
+    position: absolute;
+    left: 20px;
+}
+
+#k, #n, #r {
+    border: solid rgb(255, 255, 255,0);
+    opacity: 100%;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.lr {
+    display: flex;
+    clear: left;
+    float: left;
+    margin: 20px;
+}
+
+ .rl {
+    display: flex;
+    float: left;
+    margin: 20px;
+}
+
+.lr2 {
+    display: flex;
+    clear: left;
+    float: left;
+    margin: 20px;
+}
+
+.rl2 {
+    display: flex;
+    float: left;
+    margin: 20px;
+}
+
+
+.lrb {
+    margin-top: 20px;
+    width: 200px;
+    height: 100px;
+    background-color: seagreen;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.lrb2 {
+    margin-top: 20px;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(197, 194, 25);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.lrb:hover {
+    margin-top: 20px;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(108, 204, 149);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.rlb {
+    margin-top: 20px;
+    width: 200px;
+    height: 100px;
+    background-color: dodgerblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.rlb2 {
+    margin-top: 20px;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(189, 37, 156);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.rlb:hover {
+    margin-top: 20px;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(150, 184, 219);
+    font-size: 20px;
+    font-weight: bold;
+}
