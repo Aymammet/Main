@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <title>Main Page</title>
+  </head>
+  <style>
+    body {
+      margin: 20px;
+      }
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    #name {
+      text-align: center;
+
+    }
+
+    thead:hover {
+      background-color: orange;
+    }
+  </style>
+
+  <body>
+    <div id="name"><h1><a href="http://127.0.0.1:8000/"> My List </a></h1></div>
+    <button type="button" class="btn btn-outline-warning">
+
+      <a id="link" href="{% url 'newtodo' %}">New List </a> </button>
+      <br>
+      <br>
+      <div> Hello, {{ user.username|default:'Guest' }}</div>
+    <table
+      class="table table-bordered border-dark vertical-align: middle;  table-hover"
+    >
+      <thead class="table color:dark table-bordered border-dark table-warning text-dark">
+        <tr>
+          <th scope="col"><a href="{% url 'sort_by_pk' %}"> # </a></th>
+          <th scope="col"><a href="{% url 'sort_by_name' %}"> Do List </a></th>
+          <th scope="col"><a href="{% url 'when' %}"> When </a></th>
+          <th scope="col"><a href="{% url 'created' %}"> Created Date </a></th>
+        </tr>
+      </thead>
+      {% for list in ls %}
+      <tr>
+        <th><a href="{% url 'detail' pk=list.pk %}"> {{list.pk}}</a></th>
+        <th>{{ list }}</th>
+        <th>{{ list.when}}</th>
+        <th>{{ list.created_date}}</th>
+      </tr>
+      {% endfor %}
+    </table>
+    <br />
+    <br />
+    
+    
+  </body>
+</html>

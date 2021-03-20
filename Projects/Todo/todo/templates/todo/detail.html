@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <title>Detail Page</title>
+  </head>
+  <style>
+    body {
+      margin: 20px;
+    }
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    #name {
+      text-align: center;
+    }
+    .sp {
+      width: 200px;
+      font-weight: bold;
+    }
+  </style>
+
+  <body>
+    <div id="name">
+      <h1><a href="http://127.0.0.1:8000/"> My List </a></h1>
+    </div>
+
+    <div>
+      <span class="sp">#</span>
+      <span>{{current.pk}}</span>
+    </div>
+    <div>
+      <span class="sp">What to do </span>
+      <span>{{current}}</span>
+    </div>
+    <div>
+      <span class="sp">When </span>
+      <span>{{current.when}}</span>
+    </div>
+    <div>
+      <span class="sp">Creeated </span>
+      <span>{{current.created_date}}</span>
+    </div>
+    <br />
+    <br />
+
+    <a href="% url 'detail' pk=list.pk|add:'1' %">
+      <button type="button" class="btn btn-outline-secondary">Prev</button>
+    </a>
+    <button type="button" class="btn btn-outline-secondary">Next</button>
+  </body>
+</html>
